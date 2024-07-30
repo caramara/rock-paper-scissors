@@ -45,7 +45,7 @@ function playRound(humanChoice, computerChoice){
         console.log(`Human wins this round`);
     }else if(
         (humanChoice===3 && computerChoice===1)||
-        (humanChoice===2 && computerScore===3)||
+        (humanChoice===2 && computerChoice===3)||
         (humanChoice===1 && computerChoice===2)
     ){
         ++computerScore;
